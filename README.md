@@ -22,10 +22,12 @@ The setup program will execute the following series of steps:
 
 3. Create the service
 
-4. Start the service
+4. Start the service as user 'avinash'
 
-The program execution interval can be updated by updating the script - default interval is set as 10 seconds
-The program executes at the set interval continuously until the service is stopped
+The program execution interval can be updated by updating the script - default interval is set as 10 seconds.
+The program executes at the set interval continuously until the service is stopped.
+The service will auto restart on machine boot.
+Upon failure the service will attempt to restart only 3 times - post which the service will be in a failed state.
 
 ## Installation
 1. Clone the repo
