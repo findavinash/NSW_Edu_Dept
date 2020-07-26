@@ -3,7 +3,9 @@ Project submission for NSW Education Dept - process count by - **Avinash Kunder*
 
 # Project information
 This project contains a program that will count the number of processes executing on a machine and output the count as an integer.
+
 There are 2 sets of programs - for use on machines installed with Linux OS and Windows OS.
+
 These programs will be executed as a service by a user named 'avinash'
 
 # Getting started
@@ -40,14 +42,14 @@ Upon failure the service will attempt to restart only 3 times - post which the s
 git clone https://github.com/findavinash/NSW_Edu_Dept.git
 ```
 
-2. For **Linux OS** - use the program in the base folder named **Linux
+2. For **Linux OS** - use the program in the base folder named **Linux**
 
 3. Execute the setup script - unix_setup.sh
 ```
 sh unix_setup.sh
 ```
 
-4. For **Windows OS** - use the program in the base folder named **Windows
+4. For **Windows OS** - use the program in the base folder named **Windows**
 
 5. Execute the setup script - windows_setup.bat
 ```
