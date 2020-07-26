@@ -51,32 +51,39 @@ Upon failure the service will attempt to restart only 3 times - post which the s
 ## Usage
 Once the setup script is executed - the program will be deployed and executed.
 
-Use below commands to see the output:
+###Use below commands to see the output:
+
 ### Linus OS
 > systemctl status processcount
 
 ### Windows OS
 > sc query processcount
 
-Use below commands to stop the service:
+###Use below commands to stop the service:
+
 ### Linux OS
 > systemctl stop processcount
 
 ### Windows OS
 > sc stop processcount
 
-The interval of the program execution can be controlled by modifying a variable in the script
+###The interval of the program execution can be controlled by modifying a variable in the script.
+
 ### Linux OS
-> systemctl stop processcount
-> vi process_count.sh
-> Update the value of variable interval. Default value set is 10 seconds
-> systemctl start processcount
+```
+ systemctl stop processcount
+ vi process_count.sh
+ Update the value of variable interval. Default value set is 10 seconds
+ systemctl start processcount
+```
 
 ### Windows OS
-> sc stop processcount
-> edit process_count.bat
-> Update the value of variable interval. Default value set is 10 seconds
-> sc start processcount
+```
+ sc stop processcount
+ edit process_count.bat
+ Update the value of variable interval. Default value set is 10 seconds
+ sc start processcount
+```
 
 
 
