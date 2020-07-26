@@ -11,7 +11,9 @@ These instructions will help you to get a copy of this project up and running
 
 ## Prerequisites
 You will need a machine installed with Linux OS and a machine installed with Windows OS.
+
 There are 2 folders - Linux and Windows - each for the code that will be executed in the respective OS.
+
 The programs contain a setup script which needs to be executed with an adminstrator/root priviledged account.
 
 ## Features
@@ -25,26 +27,30 @@ The setup program will execute the following series of steps:
 4. Start the service as user 'avinash'
 
 The program execution interval can be updated by updating the script - default interval is set as 10 seconds.
+
 The program executes at the set interval continuously until the service is stopped.
+
 The service will auto restart on machine boot.
+
 Upon failure the service will attempt to restart only 3 times - post which the service will be in a failed state.
 
 ## Installation
 1. Clone the repo
 > git clone https://github.com/findavinash/NSW_Edu_Dept.git
 
-2. For **Linux OS** - use the program in the base folder named Linux
+2. For **Linux OS** - use the program in the base folder named **Linux
 
 3. Execute the setup script - unix_setup.sh
 > sh unix_setup.sh
 
-4. For **Windows OS** - use the program in the base folder named Windows
+4. For **Windows OS** - use the program in the base folder named **Windows
 
 5. Execute the setup script - windows_setup.bat
 > double click on windows_setup.bat
 
 ## Usage
-Once the setup script is executed - the program will be deployed and executed
+Once the setup script is executed - the program will be deployed and executed.
+
 Use below commands to see the output:
 ### Linus OS
 > systemctl status processcount
