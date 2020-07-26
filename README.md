@@ -43,12 +43,16 @@ git clone https://github.com/findavinash/NSW_Edu_Dept.git
 2. For **Linux OS** - use the program in the base folder named **Linux
 
 3. Execute the setup script - unix_setup.sh
-> sh unix_setup.sh
+```
+sh unix_setup.sh
+```
 
 4. For **Windows OS** - use the program in the base folder named **Windows
 
 5. Execute the setup script - windows_setup.bat
-> double click on windows_setup.bat
+```
+double click on windows_setup.bat
+```
 
 ## Usage
 Once the setup script is executed - the program will be deployed and executed.
@@ -56,18 +60,26 @@ Once the setup script is executed - the program will be deployed and executed.
 ### Use below commands to see the output:
 
 ### Linus OS
-> systemctl status processcount
+``` 
+systemctl status processcount
+```
 
 ### Windows OS
-> sc query processcount
+```
+sc query processcount
+```
 
 ### Use below commands to stop the service:
 
 ### Linux OS
-> systemctl stop processcount
+```
+systemctl stop processcount
+```
 
 ### Windows OS
-> sc stop processcount
+``` 
+sc stop processcount
+```
 
 ### The interval of the program execution can be controlled by modifying a variable in the script.
 
