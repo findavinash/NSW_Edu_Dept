@@ -1,0 +1,15 @@
+[Unit]
+Description=OS Process Count Service
+After=network.target
+StartLimitIntervalSec=100
+StartLimitBurst=3
+
+[Service]
+Type=simple
+User=admin
+ExecStart=sh /home/admin/process_count.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
