@@ -51,7 +51,7 @@ Upon failure the service will attempt to restart only 3 times - post which the s
 ## Usage
 Once the setup script is executed - the program will be deployed and executed.
 
-###Use below commands to see the output:
+### Use below commands to see the output:
 
 ### Linus OS
 > systemctl status processcount
@@ -59,7 +59,7 @@ Once the setup script is executed - the program will be deployed and executed.
 ### Windows OS
 > sc query processcount
 
-###Use below commands to stop the service:
+### Use below commands to stop the service:
 
 ### Linux OS
 > systemctl stop processcount
@@ -67,7 +67,7 @@ Once the setup script is executed - the program will be deployed and executed.
 ### Windows OS
 > sc stop processcount
 
-###The interval of the program execution can be controlled by modifying a variable in the script.
+### The interval of the program execution can be controlled by modifying a variable in the script.
 
 ### Linux OS
 ```
