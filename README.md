@@ -36,7 +36,9 @@ Upon failure the service will attempt to restart only 3 times - post which the s
 
 ## Installation
 1. Clone the repo
-> git clone https://github.com/findavinash/NSW_Edu_Dept.git
+```
+git clone https://github.com/findavinash/NSW_Edu_Dept.git
+```
 
 2. For **Linux OS** - use the program in the base folder named **Linux
 
